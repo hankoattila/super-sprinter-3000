@@ -1,0 +1,193 @@
+.cell {
+
+      
+        height: 80px;
+        overflow-y: auto;
+        background-color:  #C6A08A;
+        color: black;
+        text-decoration: none;
+        padding: 2mm 2mm 2mm 2mm;
+        margin: 1mm;
+        
+          
+}
+html{
+    height: 100%;
+}
+h1{
+    margin: 0 0 0 30%;
+}
+
+body{
+
+background: -moz-linear-gradient(-45deg,  rgba(125,185,232,0) 0%, rgba(158,87,60,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(125,185,232,0)), color-stop(100%,rgba(158,87,60,1)));
+background: -webkit-linear-gradient(-45deg,  rgba(125,185,232,0) 0%,rgba(158,87,60,1) 100%);
+background: -o-linear-gradient(-45deg,  rgba(125,185,232,0) 0%,rgba(158,87,60,1) 100%);
+background: -ms-linear-gradient(-45deg,  rgba(125,185,232,0) 0%,rgba(158,87,60,1) 100%);
+background: linear-gradient(135deg,  rgba(125,185,232,0) 0%,rgba(158,87,60,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#9e573c',GradientType=1 );
+
+}
+#table_and_button{
+
+     width: 95%;
+    height: 80%;
+    border-radius: 5px;
+    border-spacing: 2px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+
+    margin: 5% 0 0 5%;
+
+    padding: 5px; 
+
+}
+#add_new_button{
+    color: black;
+    -webkit-box-shadow: 5px -4px 14px -2px rgba(0,0,0,0.91);
+    -moz-box-shadow: 5px -4px 14px -2px rgba(0,0,0,0.91);
+    box-shadow: 5px -4px 14px -2px rgba(0,0,0,0.91);
+    padding: 2mm 2mm 2mm 2mm;
+    border: 0mm 0mm 0mm 2mm;  
+    background-color: pink;
+
+
+}
+
+table{
+    border-style: solid;
+    
+    background-color: gray;
+    width: 95%;
+    height: 80%;
+    border-radius: 5px;
+    border-spacing: 2px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    -webkit-box-shadow: 5px -4px 14px -2px rgba(0,0,0,0.91);
+-moz-box-shadow: 5px -4px 14px -2px rgba(0,0,0,0.91);
+box-shadow: 5px -4px 14px -2px rgba(0,0,0,0.91);
+    padding: 5px;
+    margin: 0.5cm 0mm 0mm 0mm;
+
+}
+.btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #c6a08a);
+  background-image: -moz-linear-gradient(top, #ffffff, #c6a08a);
+  background-image: -ms-linear-gradient(top, #ffffff, #c6a08a);
+  background-image: -o-linear-gradient(top, #ffffff, #c6a08a);
+  background-image: linear-gradient(to bottom, #ffffff, #c6a08a);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c6a08a;
+  background-image: -webkit-linear-gradient(top, #c6a08a, #c6a08a);
+  background-image: -moz-linear-gradient(top, #c6a08a, #c6a08a);
+  background-image: -ms-linear-gradient(top, #c6a08a, #c6a08a);
+  background-image: -o-linear-gradient(top, #c6a08a, #c6a08a);
+  background-image: linear-gradient(to bottom, #c6a08a, #c6a08a);
+  text-decoration: none;
+}
+.header-edit {
+    width: 10%;
+    color: black;
+}
+.header {
+
+    
+    background-color: #C36E3C;
+    color: black;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.header-id{
+    width: 5%;
+}
+.header-story_title{
+    width: 20%;
+}
+.header-user_story{
+    width: 20%;
+}
+.header-acceptance_criteria{
+    width: 18%;
+}
+.header-business_value{
+    width: 10px;
+}
+.header-estimation{
+    width: 10px;
+}
+.header-status{
+    width: 5px;
+}
+.id-cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.story_title-cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_story-cell{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acceptance_criteria-cell{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.business_value-cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+.estimation-cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+.status-cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+.edit-cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+}
+.delete-cell{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+.color-red {
+    color: red
+}
+
