@@ -146,20 +146,6 @@ def delete_item(id):
     return redirect("/")
 
 
-""""
-@app.route("/form/<sort>/UP")
-def sorted_up_by_id(sort):
-    sorted_up(sort)
-    return redirect("/")
-
-
-@app.route("/form/<sort>/Down")
-def sorted_down_by_id(sort):
-    sorted_down(sort)
-    return redirect("/")
-"""
-
-
 def sort(user_stories, sort_by, direction):
     try:
         user_stories = sorted(user_stories, key=lambda x: int(x[sort_by]), reverse=direction == "down")
